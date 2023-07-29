@@ -29,4 +29,4 @@ jobs:
             git pull https://github.com/Dirakon/CnC4-Matchmaking-Server.git
             npm i
             
-            pm2 start npm --name "CnC4-Matchmaking-Server" -- dev
+            pm2 start npm --name "CnC4-Matchmaking-Server" -- run dev
