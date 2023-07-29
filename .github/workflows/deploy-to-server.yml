@@ -19,6 +19,9 @@ jobs:
             mkdir ~/chess_con_matchmaker
             cd ~/chess_con_matchmaker
             
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
+            
             pm2 stop "CnC4-Matchmaking-Server"
             pm2 delete "CnC4-Matchmaking-Server"
             
